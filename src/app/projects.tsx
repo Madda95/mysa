@@ -54,6 +54,9 @@ export function Projects() {
               variant="h2"
               color="blue-gray"
               style={{ color: "#CB997E" }}
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               Dove trovarmi
             </Typography>

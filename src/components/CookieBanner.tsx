@@ -43,6 +43,9 @@ export function CookieBanner() {
             variant="outlined"
             size="sm"
             onClick={() => setIsVisible(false)}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+            placeholder={undefined}
           >
             Rifiuta
           </Button>
@@ -51,6 +54,9 @@ export function CookieBanner() {
             size="sm"
             onClick={handleAccept}
             className="bg-[#CB997E] hover:bg-[#b88a6f]"
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+            placeholder={undefined}
           >
             Accetta
           </Button>

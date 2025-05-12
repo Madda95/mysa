@@ -5,29 +5,58 @@ import { Typography } from "@material-tailwind/react";
 export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
-      <Typography variant="h1" className="mb-8 text-[#CB997E]">
+      <Typography
+        variant="h1"
+        className="mb-8 text-[#CB997E]"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
         Informativa sulla Privacy
       </Typography>
 
       <div className="space-y-8">
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Introduzione
           </Typography>
-          <Typography className="text-gray-600">
+          <Typography
+            className="text-gray-600"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             La presente Informativa sulla Privacy descrive come Mysa Massaggi
-            ("noi", "nostro" o "la Società") raccoglie, utilizza e condivide le
-            informazioni personali quando utilizzi il nostro sito web. Ci
-            impegniamo a proteggere la tua privacy e a gestire i tuoi dati
-            personali in modo trasparente e responsabile.
+            (&quot;noi&quot;, &quot;nostro&quot; o &quot;la Società&quot;)
+            raccoglie, utilizza e condivide le informazioni personali quando
+            utilizzi il nostro sito web. Ci impegniamo a proteggere la tua
+            privacy e a gestire i tuoi dati personali in modo trasparente e
+            responsabile.
           </Typography>
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Raccolta delle Informazioni
           </Typography>
-          <Typography className="text-gray-600 mb-4">
+          <Typography
+            className="text-gray-600 mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Raccogliamo le seguenti tipologie di informazioni:
           </Typography>
           <ul className="list-disc pl-6 space-y-2 text-gray-600">
@@ -37,10 +66,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Utilizzo dei Cookie
           </Typography>
-          <Typography className="text-gray-600 mb-4">
+          <Typography
+            className="text-gray-600 mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Utilizziamo i cookie per:
           </Typography>
           <ul className="list-disc pl-6 space-y-2 text-gray-600">
@@ -52,10 +92,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Utilizzo delle Informazioni
           </Typography>
-          <Typography className="text-gray-600 mb-4">
+          <Typography
+            className="text-gray-600 mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Utilizziamo le informazioni raccolte per:
           </Typography>
           <ul className="list-disc pl-6 space-y-2 text-gray-600">
@@ -68,10 +119,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Protezione dei Dati
           </Typography>
-          <Typography className="text-gray-600">
+          <Typography
+            className="text-gray-600"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Implementiamo misure di sicurezza tecniche e organizzative
             appropriate per proteggere i tuoi dati personali contro
             l&apos;accesso non autorizzato, la perdita o l&apos;alterazione. I
@@ -81,10 +143,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             I Tuoi Diritti
           </Typography>
-          <Typography className="text-gray-600 mb-4">
+          <Typography
+            className="text-gray-600 mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Hai il diritto di:
           </Typography>
           <ul className="list-disc pl-6 space-y-2 text-gray-600">
@@ -97,15 +170,31 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Contatti
           </Typography>
-          <Typography className="text-gray-600">
+          <Typography
+            className="text-gray-600"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Per qualsiasi domanda riguardante questa Informativa sulla Privacy o
             per esercitare i tuoi diritti, puoi contattarci a:
           </Typography>
           <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-            <Typography className="text-gray-600">
+            <Typography
+              className="text-gray-600"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               Email: info@mysamassaggi.it
               <br />
               Telefono: +39 339 2935151
@@ -116,10 +205,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Modifiche alla Privacy Policy
           </Typography>
-          <Typography className="text-gray-600">
+          <Typography
+            className="text-gray-600"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Ci riserviamo il diritto di modificare questa Informativa sulla
             Privacy in qualsiasi momento. Le modifiche saranno pubblicate su
             questa pagina e, se significative, ti informeremo tramite email o
@@ -128,10 +228,21 @@ export default function PrivacyPolicy() {
         </section>
 
         <section>
-          <Typography variant="h3" className="mb-4 text-gray-800">
+          <Typography
+            variant="h3"
+            className="mb-4 text-gray-800"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Ultimo Aggiornamento
           </Typography>
-          <Typography className="text-gray-600">
+          <Typography
+            className="text-gray-600"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Questa Informativa sulla Privacy è stata aggiornata l&apos;ultima
             volta il {new Date().toLocaleDateString("it-IT")}.
           </Typography>

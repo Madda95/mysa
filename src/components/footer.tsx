@@ -9,10 +9,20 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="mt-16 flex flex-wrap items-center justify-between gap-y-4 border-t border-gray-200 py-6">
           <div className="flex flex-col gap-1">
-            <Typography className="text-center font-normal !text-gray-700">
+            <Typography
+              className="text-center font-normal !text-gray-700"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               © {CURRENT_YEAR} Mysa Massaggi
             </Typography>
-            <Typography className="text-sm !text-gray-500">
+            <Typography
+              className="text-sm !text-gray-500"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               P.IVA: 01278190317
             </Typography>
           </div>

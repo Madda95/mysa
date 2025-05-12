@@ -13,18 +13,33 @@ function Hero() {
             style={{ color: "#CB997E" }}
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
             aria-label="Mysa centro massaggi ronchi dei legionari"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             Mysa
           </Typography>
-          <Typography variant="lead" className="mb-4 !text-gray-500">
+          <Typography
+            variant="lead"
+            className="mb-4 !text-gray-500"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Il termine Mysa ha origini svedesi e racchiude un profondo senso di
-            benessere e comfort. Significa “rilassarsi” e “godersi un momento di
-            tranquillità”, un invito a rallentare, riconnettersi con se stessi e
-            ritrovare equilibrio.
+            benessere e comfort. Significa &quot;rilassarsi&quot; e
+            &quot;godersi un momento di tranquillità&quot;, un invito a
+            rallentare, riconnettersi con se stessi e ritrovare equilibrio.
           </Typography>
-          <Typography variant="lead" className="italic mb-4 !text-gray-500">
-            “Il massaggio si fa con le mani, con la mente e con il cuore, dando
-            il meglio di se stessi agli altri.”
+          <Typography
+            variant="lead"
+            className="italic mb-4 !text-gray-500"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            &quot;Il massaggio si fa con le mani, con la mente e con il cuore,
+            dando il meglio di se stessi agli altri.&quot;
           </Typography>
         </div>
         <Image

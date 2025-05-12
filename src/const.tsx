@@ -20,7 +20,7 @@ export const massaggi = [
           un ruolo fondamentale nella comunicazione tra diverse parti del corpo.
         </p>
         <p className="text-base leading-relaxed text-gray-700">
-          L'obiettivo è creare una risposta riflessa che influenzi muscoli,
+          L&apos;obiettivo è creare una risposta riflessa che influenzi muscoli,
           organi e sistema nervoso autonomo.
         </p>
         <h4 className="text-xl font-semibold text-[#CB997E] mt-6 mb-4">
@@ -61,7 +61,7 @@ export const massaggi = [
     id: "massaggio-bionaturale",
     titolo: "Massaggio Bionaturale",
     descrizioneLite:
-      "Pratica olistica che combina diverse tecniche di massaggio e l'uso di elementi naturali per promuovere il benessere fisico, mentale ed emozionale.",
+      "Pratica olistica che combina diverse tecniche di massaggio e l&apos;uso di elementi naturali per promuovere il benessere fisico, mentale ed emozionale.",
     descrizione: (
       <div className="space-y-4">
         <p className="text-base leading-relaxed text-gray-700">

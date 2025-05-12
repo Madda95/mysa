@@ -21,6 +21,9 @@ function NavItem({ children, href }: NavItemProps) {
         variant="paragraph"
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         {children}
       </Typography>
@@ -45,6 +48,9 @@ export function Navbar() {
       shadow={false}
       fullWidth
       className="border-0 sticky top-0 z-50 px-8 py-0"
+      onPointerEnterCapture={undefined}
+      onPointerLeaveCapture={undefined}
+      placeholder={undefined}
     >
       <div className="container flex items-center justify-between min-w-full">
         <div className="flex items-center space-between">
@@ -55,7 +61,14 @@ export function Navbar() {
             alt={"Logo Mysa massaggi Ronchi dei Legionari"}
           />
         </div>
-        <Button>Chiama ora</Button>
+        <Button
+          onClick={() => (window.location.href = "tel:+393392935151")}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+          placeholder={undefined}
+        >
+          Chiama ora
+        </Button>
       </div>
     </MTNavbar>
   );

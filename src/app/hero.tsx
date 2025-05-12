@@ -16,6 +16,8 @@ function Hero() {
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
           >
             Mysa
           </Typography>
@@ -25,6 +27,8 @@ function Hero() {
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
           >
             Il termine Mysa ha origini svedesi e racchiude un profondo senso di
             benessere e comfort. Significa &quot;rilassarsi&quot; e
@@ -37,6 +41,8 @@ function Hero() {
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
           >
             &quot;Il massaggio si fa con le mani, con la mente e con il cuore,
             dando il meglio di se stessi agli altri.&quot;

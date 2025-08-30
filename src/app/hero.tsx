@@ -51,8 +51,11 @@ function Hero() {
         <Image
           width={1024}
           height={1024}
+          style={{
+            objectPosition: "top",
+          }}
           alt="team work"
-          src="/image/hero.jpeg"
+          src="/image/hero.png"
           className="h-[30rem] w-[30rem] w-full rounded-xl object-cover ml-auto"
         />
       </div>
